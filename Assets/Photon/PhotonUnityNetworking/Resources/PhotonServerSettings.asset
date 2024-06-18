@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: 8fc5c1a5-aa38-4d4d-86be-cbd2286ffc21
+    AppIdFusion: 
+    AppIdChat: 
+    AppIdVoice: 7c4f07ec-f0f7-49eb-974e-8601679f4be0
+    AppVersion: 
+    UseNameServer: 1
+    FixedRegion: 
+    Server: 
+    Port: 0
+    ProxyServer: 
+    Protocol: 0
+    EnableProtocolFallback: 1
+    AuthMode: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  DevRegion: asia
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - CantHearYou
+  - ChangeColour
+  - ClickRpc
+  - DestroyRpc
+  - HeresWhy
+  - ActivateApiAndUpgradeScore
+  - ActivateCorrectAndUpgradeScore
+  - ActivateTriggerObjectAndArea
+  - AirUpdate
+  - CompleteAndUpgradeScore
+  - DeadRPC
+  - DestroyGameObject
+  - DestroyObject
+  - DestroyObjectSelang
+  - DestroySpaceship
+  - DisableSocketInteractor
+  - ExecuteAreaTriggerOnAllPlayers
+  - ExecuteSelangPanjangOnAllPlayers
+  - ExecuteSelangTirisanOnAllPlayers
+  - FinishManager
+  - Fire
+  - IncrementCount
+  - ManagerSelangKanan
+  - ManagerSelangKiri
+  - PillarWater
+  - RespawnSpaceship
+  - RPC_ActivateObject
+  - RPC_ReduceApiHP
+  - RPC_SetObjectsSelangPanjang
+  - RPC_SetObjectsUntagged
+  - RPC_SetPenguranganApiHP
+  - RPCDecreaseScore
+  - RPCDisableWater
+  - RPCGrabInteractForSelangTirisan
+  - RPCSetCanDecreaseScorePillar
+  - RPCSetCanDecreaseScoreSelang
+  - RPCWoosh
+  - SetAnotherTriggerComplete
+  - SetAreaTriggerActive
+  - StopCountdownRPC
+  - SyncCompleteStatus
+  - SyncCorrectStatus
+  - SyncCountdown
+  - SyncIsUpgrade
+  - SyncScoreAndUpgrade
+  - UpdateHydrantActivationStatus
+  - UpdateHydrantStatus
+  - UpdateKnobValue
+  - UpdateNameRPC
+  - WaterStatusKanan
+  - WaterStatusKiri
+  - SetHydrantRotation
+  - RPC_SetValue
+  - UpdateWaterMode
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1
+  DevRegionSetOnce: 1
